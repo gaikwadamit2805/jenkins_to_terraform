@@ -4,7 +4,7 @@ pipeline {
         AWS_CREDENTIALS = credentials('aws-credentials')
         AWS_ACCESS_KEY_ID     = credentials('aws_accesskey_id')
         AWS_SECRET_ACCESS_KEY = credentials('aws_secrete_key')
-        TERRAFORM_DIR = "C:\ProgramData\Jenkins\.jenkins\workspace\terraform"
+        TERRAFORM_DIR = "C:\ProgramData\Jenkins\.jenkins\workspace\terraform\"
     }
 
    agent  any
