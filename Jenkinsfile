@@ -3,6 +3,8 @@ pipeline {
 
     environment {
         AWS_CREDENTIALS = credentials('aws-credentials') // AWS credentials ID configured in Jenkins
+        AWS_ACCESS_KEY_ID = credentials('aws_accesskey_id')
+        AWS_SECRET_ACCESS_KEY = credentials('aws_secrete_key')
     }
 
     stages {
