@@ -11,7 +11,7 @@ pipeline {
         stage('checkout') {
             steps {
                  script{
-                        dir("terraform")
+                        mkdir terraform
                         {
                             git "https://github.com/gaikwadamit2805/jenkins_to_terraform.git"
                         }
